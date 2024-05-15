@@ -23,6 +23,10 @@ body {
     color: #2e2f42;
 }
 
+.title-item {
+    color: #2e2f42;
+}
+
 .title-item:hover {
     color: #404bbf;
 }
@@ -50,6 +54,30 @@ body {
     color: #434455;
     text-decoration: none;
     color: #434455;
+}
+
+.my-mail {
+    color: #434455;
+}
+
+.my-mail:hover {
+    color: #404bbf;
+}
+
+.my-mail:focus {
+    color: #404bbf;
+}
+
+.my-number {
+    color: #434455;
+}
+
+.my-number:hover {
+    color: #404bbf;
+}
+
+.my-number:focus {
+    color: #404bbf;
 }
 
 .main-contact:hover {
