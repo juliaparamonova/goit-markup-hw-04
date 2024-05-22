@@ -1,21 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #fff;
     font-family: "Roboto", sans-serif;
     color: #434455;
+    margin: 0;
+    width: 1440px;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+.page-container {
+    min-height: 100vh;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.container-header {
+    box-sizing: border-box;
+    display: flex;
+
+    padding-top: 24px;
+    padding-bottom: 24px;
+
+
+
+}
+
+.header {}
+
+.header-nav {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 40px;
+
 }
 
 .logo {
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
     color: #4d5ae5;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
+    padding-left: 156px;
+    text-transform: uppercase;
+    margin-right: 76px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+
 }
 
 .logo-item {
     color: #2e2f42;
+
+}
+
+.title-sub-nav {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding: 0;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-right: 166px;
 }
 
 .title-list-item {
@@ -35,8 +117,17 @@ body {
     color: #404bbf;
 }
 
-.main-contact {
+.address {
     font-style: normal;
+}
+
+.address-link {
+    display: flex;
+    gap: 40px;
+    flex-direction: row-reverse;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-left: 166px;
 }
 
 .my-mail {
@@ -54,8 +145,14 @@ body {
     color: #404bbf;
 }
 
+
 .title {
     background: #2e2f42;
+    margin-right: auto;
+    margin-left: auto;
+    height: 600px;
+
+
 }
 
 .section-title {
@@ -63,7 +160,17 @@ body {
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: #fff;
-    text-align: center;
+    width: 600px;
+
+}
+
+.btn-ink {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 188px;
+    padding-top: 169px;
+
 }
 
 .link {
@@ -75,7 +182,19 @@ body {
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
+    margin: 0 auto;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    width: 169px;
+    height: 56px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-top: 48px;
 }
+
+
 
 .link:hover {
     background: #404bbf;
@@ -88,6 +207,11 @@ body {
 
 .team {
     background: #f4f4fd;
+    margin-right: auto;
+    margin-left: auto;
+    height: 732px;
+
+
 }
 
 .team-title {
@@ -97,10 +221,20 @@ body {
     color: #2e2f42;
     text-transform: capitalize;
     text-align: center;
+    margin-left: 639px;
+}
+
+
+.team-container {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
 }
 
 .team-member {
     background-color: #FFFFFF;
+    display: block;
+
 }
 
 .text-class {
@@ -116,6 +250,7 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-top: 32px;
 }
 
 .portfolio {
@@ -144,6 +279,7 @@ body {
 
 .about {
     background: #2e2f42;
+    padding: 100px 0;
 }
 
 .logo-item-second {
@@ -155,8 +291,26 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    max-width: 264px;
+    margin-left: 156px;
 }
 
 .logo-item-footer {
     color: #f4f4fd;
+}
+
+.container-footer {}
+
+
+.container-portfolio {
+    max-width: 1128px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    align-content: flex-start
+}
+
+.logo-footer {
+    display: inline-block;
+    margin-bottom: 16px;
 }
