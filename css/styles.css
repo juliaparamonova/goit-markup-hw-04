@@ -11,6 +11,10 @@ body {
     box-sizing: border-box;
 }
 
+img {
+    display: block;
+}
+
 h1,
 h2,
 h3,
@@ -33,6 +37,7 @@ ul {
 
 .page-container {
     min-height: 100vh;
+
 }
 
 .visually-hidden {
@@ -49,17 +54,21 @@ ul {
 }
 
 .container-header {
-    box-sizing: border-box;
     display: flex;
-
     padding-top: 24px;
     padding-bottom: 24px;
-
-
-
 }
 
-.header {}
+.container {
+    width: 1158px;
+    margin: 0;
+    padding: 0 15px;
+    ;
+}
+
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
 
 .header-nav {
     display: flex;
@@ -67,6 +76,7 @@ ul {
     justify-content: flex-start;
     flex-direction: row;
     gap: 40px;
+    align-items: center;
 
 }
 
@@ -107,6 +117,7 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 24px 0;
 }
 
 .title-list-item:hover {
@@ -151,16 +162,19 @@ ul {
     margin-right: auto;
     margin-left: auto;
     height: 600px;
+    padding: 188px 0;
 
 
 }
+
+.container-section-main {}
 
 .section-title {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: #fff;
-    width: 600px;
+    max-width: 496px;
 
 }
 
@@ -175,7 +189,7 @@ ul {
 
 .link {
     font-family: "Roboto", sans-serif;
-    background: #4d5ae5;
+    background-color: #4d5ae5;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -184,13 +198,10 @@ ul {
     cursor: pointer;
     margin: 0 auto;
     border-radius: 4px;
-    display: flex;
-    flex-direction: row;
-    width: 169px;
+    display: block;
+    min-width: 169px;
     height: 56px;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
+    border: none;
     margin-top: 48px;
 }
 
@@ -210,6 +221,7 @@ ul {
     margin-right: auto;
     margin-left: auto;
     height: 732px;
+    padding: 120px 0;
 
 
 }
@@ -222,6 +234,12 @@ ul {
     text-transform: capitalize;
     text-align: center;
     margin-left: 639px;
+    margin-bottom: 72px;
+}
+
+
+.strategy {
+    padding: 120px 0;
 }
 
 
@@ -234,7 +252,19 @@ ul {
 .team-member {
     background-color: #FFFFFF;
     display: block;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 
+
+}
+
+.title-class {
+    display: flex;
+    gap: 24px;
+}
+
+.class-item {
+    width: cal((100%-72px)/4);
 }
 
 .text-class {
@@ -242,6 +272,7 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    text-align: center;
 }
 
 .first-class {
@@ -250,7 +281,18 @@ ul {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    margin-top: 32px;
+    margin-bottom: 8px;
+    text-align: center;
+
+}
+
+.team-list {
+    display: flex;
+    gap: 24px;
+}
+
+.item-team {
+    padding: 32px 0;
 }
 
 .portfolio {
@@ -260,6 +302,25 @@ ul {
     text-transform: capitalize;
     color: #2e2f42;
     text-align: center;
+    margin-bottom: 72px;
+}
+
+.list-team-portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.item-team-list {
+    width: calc((100% - 48px) / 3)
+}
+
+.frs-team {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+
 }
 
 .team-app {
@@ -268,6 +329,7 @@ ul {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .team-item {
@@ -275,6 +337,13 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+
+.class-portfolio {
+    padding-top: 120px;
+    padding-bottom: 120px;
+
 }
 
 .about {
