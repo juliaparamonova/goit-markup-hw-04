@@ -102,6 +102,7 @@ ul {
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin: 24px 0;
+    padding: 24px 0;
 }
 
 .title-list-item:hover {
@@ -188,6 +189,17 @@ ul {
     margin-top: 48px;
 }
 
+.first-class {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+    text-align: center;
+
+}
+
 .link:hover {
     background: #404bbf;
 }
@@ -236,16 +248,14 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    text-align: center;
 }
 
-.first-class {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    margin-bottom: 8px;
+.strategy-title {
+    text-align: left;
 }
+
+
 
 .team-list {
     display: flex;
