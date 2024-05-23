@@ -1,13 +1,7 @@
-* {
-    box-sizing: border-box;
-}
-
 body {
     background-color: #fff;
     font-family: "Roboto", sans-serif;
     color: #434455;
-    margin: 0;
-    width: 1440px;
     box-sizing: border-box;
 }
 
@@ -23,7 +17,6 @@ h5,
 h6,
 p {
     margin: 0;
-    padding-left: 0;
 }
 
 a {
@@ -33,11 +26,8 @@ a {
 ul {
     list-style: none;
     display: flex;
-}
-
-.page-container {
-    min-height: 100vh;
-
+    padding: 0;
+    margin: 0;
 }
 
 .visually-hidden {
@@ -57,13 +47,14 @@ ul {
     display: flex;
     padding-top: 24px;
     padding-bottom: 24px;
+    padding-left: 156px;
+    max-width: 1440px;
 }
 
 .container {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
-    ;
 }
 
 .header {
@@ -73,12 +64,8 @@ ul {
 
 .header-nav {
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: row;
-    gap: 40px;
     align-items: center;
-
+    margin-right: auto;
 }
 
 .logo {
@@ -88,17 +75,14 @@ ul {
     color: #4d5ae5;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
-    padding-left: 156px;
     text-transform: uppercase;
     margin-right: 76px;
     margin-top: 24px;
     margin-bottom: 24px;
-
 }
 
 .logo-item {
     color: #2e2f42;
-
 }
 
 .title-sub-nav {
@@ -108,7 +92,6 @@ ul {
     padding: 0;
     margin-top: 24px;
     margin-bottom: 24px;
-    margin-right: 166px;
 }
 
 .title-list-item {
@@ -118,7 +101,7 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding: 24px 0;
+    margin: 24px 0;
 }
 
 .title-list-item:hover {
@@ -131,15 +114,14 @@ ul {
 
 .address {
     font-style: normal;
+
 }
 
 .address-link {
     display: flex;
     gap: 40px;
-    flex-direction: row-reverse;
     margin-top: 24px;
     margin-bottom: 24px;
-    margin-left: 166px;
 }
 
 .my-mail {
@@ -157,26 +139,26 @@ ul {
     color: #404bbf;
 }
 
-
 .title {
     background: #2e2f42;
     margin-right: auto;
     margin-left: auto;
     height: 600px;
     padding: 188px 0;
-
-
 }
 
-.container-section-main {}
+.container-section-main {
+    display: flex;
+    align-items: center;
+    max-width: 600px;
+}
 
 .section-title {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: #fff;
-    max-width: 496px;
-
+    text-align: center;
 }
 
 .btn-ink {
@@ -185,7 +167,6 @@ ul {
     align-items: center;
     padding-bottom: 188px;
     padding-top: 169px;
-
 }
 
 .link {
@@ -206,8 +187,6 @@ ul {
     margin-top: 48px;
 }
 
-
-
 .link:hover {
     background: #404bbf;
 }
@@ -216,15 +195,9 @@ ul {
     background-color: #404BBF
 }
 
-
 .team {
     background: #f4f4fd;
-    margin-right: auto;
-    margin-left: auto;
-    height: 732px;
     padding: 120px 0;
-
-
 }
 
 .team-title {
@@ -234,20 +207,11 @@ ul {
     color: #2e2f42;
     text-transform: capitalize;
     text-align: center;
-    margin-left: 639px;
     margin-bottom: 72px;
 }
 
-
 .strategy {
     padding: 120px 0;
-}
-
-
-.team-container {
-    display: flex;
-    flex-direction: row;
-    padding: 0;
 }
 
 .team-member {
@@ -255,8 +219,6 @@ ul {
     display: block;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
-
-
 }
 
 .title-class {
@@ -284,12 +246,12 @@ ul {
     color: #2e2f42;
     margin-bottom: 8px;
     text-align: center;
-
 }
 
 .team-list {
     display: flex;
     gap: 24px;
+    padding: 0;
 }
 
 .item-team {
@@ -304,6 +266,7 @@ ul {
     color: #2e2f42;
     text-align: center;
     margin-bottom: 72px;
+    text-align: center;
 }
 
 .list-team-portfolio {
@@ -311,7 +274,10 @@ ul {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    padding: 0;
+
 }
+
 
 .item-team-list {
     width: calc((100% - 48px) / 3);
@@ -321,7 +287,7 @@ ul {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-
+    width: 360px;
 }
 
 .team-app {
@@ -344,7 +310,6 @@ ul {
 .class-portfolio {
     padding-top: 120px;
     padding-bottom: 120px;
-
 }
 
 .about {
@@ -362,22 +327,10 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     max-width: 264px;
-    margin-left: 156px;
 }
 
 .logo-item-footer {
     color: #f4f4fd;
-}
-
-.container-footer {}
-
-
-.container-portfolio {
-    max-width: 1128px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
-    align-content: flex-start
 }
 
 .logo-footer {
