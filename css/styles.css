@@ -262,8 +262,6 @@ ul {
     text-align: left;
 }
 
-
-
 .team-list {
     display: flex;
     gap: 24px;
@@ -304,9 +302,7 @@ ul {
     column-gap: 24px;
     row-gap: 48px;
     padding: 0;
-
 }
-
 
 .item-team-list {
     width: calc((100% - 48px) / 3);
