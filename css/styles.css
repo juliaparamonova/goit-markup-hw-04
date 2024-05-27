@@ -45,6 +45,7 @@ ul {
 
 .container-header {
     display: flex;
+    align-items: center;
     padding-top: 24px;
     padding-bottom: 24px;
     padding-left: 156px;
@@ -87,11 +88,10 @@ ul {
 
 .title-sub-nav {
     display: flex;
+    align-items: center;
     flex-direction: row;
     gap: 40px;
     padding: 0;
-    margin-top: 24px;
-    margin-bottom: 24px;
 }
 
 .title-list-item {
@@ -101,8 +101,6 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    margin: 24px 0;
-    padding: 24px 0;
 }
 
 .title-list-item:hover {
@@ -121,8 +119,6 @@ ul {
 .address-link {
     display: flex;
     gap: 40px;
-    margin-top: 24px;
-    margin-bottom: 24px;
 }
 
 .my-mail {
@@ -130,8 +126,7 @@ ul {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding: 24px 0;
-
+    padding: 24px 24px;
 }
 
 .my-mail:hover {
@@ -146,10 +141,16 @@ ul {
     background: #2e2f42;
     margin-right: auto;
     margin-left: auto;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/Hero/people-office\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 50% 50%;
     height: 600px;
     padding: 188px 0;
+    max-width: 1440px
 }
 
+.hero {}
 
 
 .section-title {
@@ -232,6 +233,7 @@ ul {
     display: block;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
 .title-class {
