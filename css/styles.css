@@ -269,15 +269,22 @@ ul {
 
 .strategy-title {
     text-align: left;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    margin-bottom: 8px;
+
 }
+
 
 .text-class {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    text-align: center;
     margin-bottom: 8px;
+    text-align: center;
 }
 
 /* #endregion section 2 */
