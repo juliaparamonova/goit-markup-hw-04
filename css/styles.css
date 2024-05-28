@@ -105,17 +105,20 @@ ul {
     position: relative;
 }
 
-.first {
-    position: relative;
+
+.title-list-item-first {
+    font-weight: 500;
     color: #404bbf;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     max-width: "48";
+    position: relative;
     padding-bottom: 24px;
 }
 
-
-
-.title-list-item::after {
+.title-list-item-first::after {
     content: "";
     width: 100%;
     position: absolute;
@@ -343,9 +346,7 @@ ul {
     background-color: #404bbf;
 }
 
-.social-icon {
-    fill: #f4f4fd;
-}
+.social-icon {}
 
 .portfolio {
     font-size: 36px;
