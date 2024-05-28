@@ -349,7 +349,9 @@ ul {
     background-color: #404bbf;
 }
 
-.social-icon {}
+.social-icon {
+    fill: #fff;
+}
 
 .portfolio {
     font-size: 36px;
